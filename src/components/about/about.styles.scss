@@ -1,0 +1,66 @@
+.about-router-home-component {
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+    padding: 5px 9%;
+}
+.about-container-custom {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 2vh;
+}
+
+.about-container-custom div {
+    flex-basis: 48%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+}
+.about-container-custom div svg {
+    width: 380px;
+    height: 380px;
+    margin-top: -30px;
+}
+.about-container-custom div p {
+    padding-left: 10px;
+    font-size: calc(10px + 1.4vmin);
+    line-height: 39px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .about-router-home-component {
+        margin-top: 5vh;
+        margin-bottom: 6vh;
+        padding: 5px 20px;
+    }
+    .about-container-custom div {
+        flex-basis: 100%;
+         display: flex;
+         justify-content: center;
+         margin: 10px;
+         align-items: center;
+     }
+     .about-container-custom {
+        height: max-content;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 2vh;
+    }
+    .about-container-custom div p {
+        padding-left: 0;
+        font-size: calc(10px + 2.8vmin);
+        line-height: 39px;
+    }
+    .about-container-custom div svg {
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+}

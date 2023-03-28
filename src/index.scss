@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Gemunu+Libre&family=Josefin+Sans&family=Jost:wght@500&family=Lexend:wght@400;500;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR&family=Open+Sans:wght@400;500;600&family=Oxygen&family=Plus+Jakarta+Sans:wght@800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Prompt&family=Questrial&family=Quicksand:wght@600&family=Roboto+Slab:wght@400;500&family=Tilt+Warp&family=Titillium+Web&display=swap');
+
+body {
+  user-select: none;
+     /* ff 3.6+ */
+     background:-moz-linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(3, 27, 52, 1) 84%, rgba(3, 27, 52, 1) 100%); 
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(3, 27, 52, 1) 84%, rgba(3, 27, 52, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(3, 27, 52, 1) 84%, rgba(3, 27, 52, 1) 100%);
+ 
+     /* ie 6-9 */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#031B34', endColorstr='#031B34', GradientType=0 );
+ 
+     /* ie 10+ */
+     background:-ms-linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(3, 27, 52, 1) 84%, rgba(3, 27, 52, 1) 100%);
+ 
+     /* global 94%+ browsers support */
+     background:linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(3, 27, 52, 1) 84%, rgba(3, 27, 52, 1) 100%);
+
+  height: max-content;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+html::selection {
+  background: #64ffda;
+  color: var(--var-color-component-advanced);
+}
+html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+::selection {
+  background: #64ffda ;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--var-color-component-advanced); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--var-color-component-advanced); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--var-color-component-advanced); 
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.gradient__bg {
+  background:-moz-linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(0, 0, 0, 1) 65%, rgba(3, 27, 52, 1) 84%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(0, 0, 0, 1) 65%, rgba(3, 27, 52, 1) 84%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(0, 0, 0, 1) 65%, rgba(3, 27, 52, 1) 84%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#031B34', endColorstr='#031B34', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(0, 0, 0, 1) 65%, rgba(3, 27, 52, 1) 84%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(3, 27, 52, 1) 32%, rgba(0, 0, 0, 1) 65%, rgba(3, 27, 52, 1) 84%);
+
+}
+
+  // FLEXS
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+
+  // FONTS
+  .font-satoshi {
+    font-family: 'Satoshi', sans-serif;
+  }
+  .font-bold {
+    font-weight: bold;
+  }
+  .font-author {
+    font-family: 'Author', sans-serif;
+  }
+  .font-general-sans {
+    font-family: 'General Sans', sans-serif;
+  }
+  .font-outfit {
+    font-family: 'Outfit', sans-serif;
+  }
+  .font-vietnam-pro {
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+  .font-excon {
+    font-family: 'Excon', sans-serif;
+  }
+  .font-chillax {
+    font-family: 'Chillax', sans-serif;
+  }
+  .font-nippo {
+    font-family: 'Nippo', sans-serif;
+  }
+  .font-work-sans {
+    font-family: 'Work Sans', sans-serif;
+  }
+  .font-chakra {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+
+    // COLORS 
+
+    :root {
+      --var-color-component-white: #ffff;
+      --var-color-component-black: #000;
+      --var-color-component-advanced: #031B34;
+      --var-color-component-third: #64ffda;
+      --var-color-component-hover: rgb(78, 202, 173);
+      --var-color-back: rgba(0,0,0,.3);
+    }
+    .color-third {
+      color: var(--var-color-component-third);
+    }
+    .color-white {
+      color: var(--var-color-component-white);
+    }
+    .color-black {
+      color: var(--var-color-component-black);
+    }
+    .color-advanced {
+      color: var(--var-color-component-advanced);
+    }
+    .user-s-no {
+      user-select: none;
+    }
+    .text-d-no {
+      text-decoration: none;
+    }
+    .m-0 {
+      margin: 0;
+    }
+    .first-content-element {
+      font-size: calc(10px + 7.8vmin);
+      padding-left: 20px;
+    }
+    .extended-mVgFrc {
+      background: var(--var-color-component-advanced);
+    }

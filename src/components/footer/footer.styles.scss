@@ -1,0 +1,26 @@
+.footer-last-child-element-bottom {
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+}
+.footer-last-child-element-bottom p {
+    margin: 1px 0;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .footer-last-child-element-bottom {
+        margin-top: 15vh;
+        margin-bottom: 4vh;
+    }
+    .footer-last-child-element-bottom p {
+        margin: 1px 0;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .footer-last-child-element-bottom h3 {
+        margin: 1px 0;
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+    
+}

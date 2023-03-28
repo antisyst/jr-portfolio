@@ -1,0 +1,44 @@
+.navigation-element-top-cont {
+    padding: 17px 6%;
+    position: fixed;
+    backdrop-filter: blur(18px);
+    top: 0;
+    width: 88%;
+    z-index: 100;
+}
+.navigation-element-top-cont svg {
+    width: 130px;
+    height: 60px;
+}
+.custom-nav-router-element {
+    color: var(--var-color-component-advanced);
+    background: var(--var-color-component-third);
+    padding: 12px 28px;
+    font-size: calc(10px + 1.5vmin);
+    transition: all 0.4s ease-out;
+    border-radius: 8px;
+    border: 1.6px solid var(--var-color-component-third);
+}
+.custom-nav-router-element:hover {
+    background: none;
+    transition: all 0.4s ease-out;
+    color: var(--var-color-component-third);
+}
+
+@media only screen and (max-width: 700px) {
+    .navigation-element-top-cont svg {
+        width: 80px;
+        cursor: none;
+        height: 40px;
+    }
+    .custom-nav-router-element {
+        color: var(--var-color-component-advanced);
+        background: var(--var-color-component-third);
+        padding: 12px 28px;
+        cursor: none;
+        font-size: calc(10px + 1.5vmin);
+        transition: all 0.4s ease-out;
+        border-radius: 8px;
+        border: 1.6px solid var(--var-color-component-third);
+    }
+}
