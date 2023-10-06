@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Static Navbar</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+        background: white;
+    }
+    .font_inter {
+        font-family: 'Inter', sans-serif;
+    }
+    .f-14 {
+        font-size: 13px;
+    }
+    .hero_bg {
+        height: 74vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: url(./assets/hero_bg.png);
+    }
+    .width_title {
+        width: 524px;
+    }
+    .hght_88 {
+       height: 88vh;
+    }
+    .color_main {
+        color: #707070;
+    }
+    .video_bg {
+        background: url(./assets/video.png);
+        width: 1076px;
+        height: 604.342px;
+    }
+    .section_bg {       
+        min-height: 100vh;
+        max-height: max-content;
+        margin-bottom: 10vh;
+        background-repeat: no-repeat;
+        background: url(./assets/section_bg.png);
+    }
+    .linear_bg {
+        background: linear-gradient(57deg, #005FAD 0%, #7E7ACB 59%, #D68CDF 100%);
+        height: 600px;
+        margin: 20px 6%;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between p-4">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="./assets/logo.svg" alt="">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">                   
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link text-decoration-none font-weight-500 fs-6 text-uppercase text-muted mr-5">Solutions</a>
+                    <a href="#" class="nav-item nav-link text-decoration-none font-weight-500 fs-6 text-uppercase text-muted mr-4">Evidence</a>
+                    <a href="#" class="nav-item nav-link text-decoration-none font-weight-500 fs-6 text-uppercase text-muted mr-4">Blog</a>
+                    <a href="#" class="nav-item nav-link text-decoration-none font-weight-500 fs-6 text-uppercase text-muted mr-4">News</a>
+                    <a href="#" class="nav-item nav-link text-decoration-none font-weight-500 fs-6 text-uppercase text-muted mr-4">Events</a>
+                    <a href="#" class="nav-item nav-link text-decoration-none font-weight-500 fs-6 text-uppercase text-muted mr-4">Resources</a>
+                    <a href="#" class="nav-item nav-link text-decoration-none font-weight-500 fs-6 text-uppercase text-muted mr-4">About</a>
+                    <a href="#" class="nav-item nav-link text-decoration-none font-weight-500 fs-6 text-uppercase text-muted mr-4">Bionik Academy</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <div class="hero_bg" style="background-size: cover;">
+        <div class="d-flex flex-row h-88vh flex-wrap align-items-center justify-content-center hght_88">
+            <div class="width_title">
+                <h1 class="font_inter fs-1 color_main">
+                    Enhance Upper-Extremity Rehabilitation Results with InMotionⓇ Robotic Therapy Solutions</h1>
+                <p class="fs-3 color_main">Leverage the power of robotic A.I for upper-extremity motor retraining.</p>
+            </div>
+            <div>
+                <img src="./assets/hero_img.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- WELCOME -->
+
+    <div class="text-center">
+        <h1 class="fs-4 py-4 text-center" style="color: #005FAD; margin-top: 10vh;"> Welcome to the world of Bionik Labs, where innovation and technology converge to transform the field of rehabilitation.</h1>
+        <p class="text-center fs-5" style="padding: 0 10%;">The InMotionⓇ  Arm and InMotionⓇ  Arm/Hand solutions are designed to empower physical therapists like you to deliver exceptional care and revolutionize patient outcomes.</p>
+        <button class="text-center text-white  font-weight-500 border-0 btn" style="margin-top: 4vh; background: #005FAD; padding: 10px 40px; border-radius: 30px;
+        ">LEARN MORE</button>
+    </div>
+
+
+    <!-- VIDEO -->
+    <div class="text-center d-flex flex-column align-items-center justify-content-center">
+       <div class="video text-center video_bg" style="margin-top: 8vh;"></div>
+    </div>
+
+    <!-- SECTION 2 -->
+
+    <div class="text-center section_bg" style="margin-top: 10vh; background-size: cover;">
+    <h1 class="text-center" style="color: #005FAD; padding-top: 10vh;">Why Choose InMotionⓇ Robotic Therapy?</h1>
+    <div class="d-flex flex-row align-items-center justify-content-evenly flex-wrap" style="margin-top: 7vh;">
+        <div>
+            <img src="./assets/bionik.png" alt="">
+        </div>
+        <div class="d-flex flex-column align-items-start justify-content-center flex-wrap">
+            <div class="accordion" id="accordionExample" style="width: 700px; background: none;">
+                <div class="accordion-item" style="background-image: none;">
+                  <h2 class="accordion-header" id="headingOne" style="background: none;">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h3 class="d-flex flex-row align-items-center fs-4" style="color: #005FAD"><img src="./assets/plus_svg.svg" alt="" style="margin-right: 10px;">Advanced Robotic Assistance:</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p  class="text-left">The InMotionⓇ  series combines cutting-edge robotics and intelligent software to provide precise and adaptive assistance during therapy sessions. These state-of-the-art devices seamlessly integrate into your rehabilitation protocols, enhancing the effectiveness of your treatments.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h3 class="d-flex flex-row align-items-center fs-4" style="color: #005FAD;"><img src="./assets/plus_svg.svg" alt="" style="margin-right: 10px;">Targeted Rehabilitation:</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     <p class="text-left">The InMotionⓇ  series combines cutting-edge robotics and intelligent software to provide precise and adaptive assistance during therapy sessions. These state-of-the-art devices seamlessly integrate into your rehabilitation protocols, enhancing the effectiveness of your treatments.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree" style="background: none;">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h3 class="d-flex flex-row align-items-center fs-4" style="color: #005FAD"><img src="./assets/plus_svg.svg" alt="" style="margin-right: 10px;">Engaging and Interactive Sessions:</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     <p  class="text-left">The InMotionⓇ  series combines cutting-edge robotics and intelligent software to provide precise and adaptive assistance during therapy sessions. These state-of-the-art devices seamlessly integrate into your rehabilitation protocols, enhancing the effectiveness of your treatments.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree" style="background: none;">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h3 class="d-flex flex-row align-items-center fs-4" style="color: #005FAD"><img src="./assets/plus_svg.svg" alt="" style="margin-right: 10px;">Real-time Performance Feedback:</h3>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <p  class="text-left">The InMotionⓇ  series combines cutting-edge robotics and intelligent software to provide precise and adaptive assistance during therapy sessions. These state-of-the-art devices seamlessly integrate into your rehabilitation protocols, enhancing the effectiveness of your treatments.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree" style="background: none;">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h3 class="d-flex flex-row align-items-center fs-4" style="color: #005FAD"><img src="./assets/plus_svg.svg" alt="" style="margin-right: 10px;">Easy Integration:</h3>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <p  class="text-left">The InMotionⓇ  series combines cutting-edge robotics and intelligent software to provide precise and adaptive assistance during therapy sessions. These state-of-the-art devices seamlessly integrate into your rehabilitation protocols, enhancing the effectiveness of your treatments.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree" style="background: none;">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h3 class="d-flex flex-row align-items-center fs-4" style="color: #005FAD"><img src="./assets/plus_svg.svg" alt="" style="margin-right: 10px;">Evidence-Based Results:</h3>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                       <p  class="text-left">The InMotionⓇ  series combines cutting-edge robotics and intelligent software to provide precise and adaptive assistance during therapy sessions. These state-of-the-art devices seamlessly integrate into your rehabilitation protocols, enhancing the effectiveness of your treatments.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="text-center text-white  font-weight-500 border-0 btn" style="margin-top: 4vh; background: #005FAD; padding: 10px 40px; border-radius: 30px;
+                  ">REQUEST DEMO</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- SECTION 4 -->
+    <div style="margin-top: 20vh; padding: 70px 4%; background: white;">
+        <div class="d-flex flex-row align-items-center justify-content-between">
+            <div>
+                <img src="./assets/section_4.png" alt="">
+            </div>
+            <div style="padding-left: 40px;">
+                <h1>Unlock the Power of InMotionⓇ Robotic Therapy Solutions</h1>
+                <p>By incorporating InMotionⓇ Arm or InMotionⓇ Arm/Hand into your practice, you can unlock a new dimension of rehabilitation and transform the lives of your patients. Whether you are working with individuals recovering from stroke, traumatic brain injury, or other neurological conditions, InMotionⓇ Robotics offers a powerful tool to facilitate their journey toward recovery.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAROUSEL -->
+    <div style="background: white; margin-top: 8vh;">
+    <div id="carouselExampleControls" class="carousel slide linear_bg" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <h3 style="padding: 0 200px; margin-top: 260px; color: white;">Take the next step in revolutionizing your practice and empowering your patients with the most advanced robotic assistance available. </h3>
+           <p style="color: white;">To learn more about the InMotionⓇ Arm and InMotionⓇ Arm/Hand and how they can elevate your rehabilitation practice, click the button below.</p>
+           <button class="text-center text-white  font-weight-500 border-0 btn" style="margin-top: 4vh; color: #005FAD; padding: 10px 40px; border-radius: 30px;
+           ">Explore InMotionⓇ Solutions</button>
+           
+          </div>
+          <div class="carousel-item">
+            <h2 style="padding: 0 200px; margin-top: 260px; color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex culpa odio obcaecati repellendus dolore!</h2>
+            <p style="color: white;">To learn more about the InMotionⓇ Arm and InMotionⓇ Arm/Hand and how they can elevate your rehabilitation practice, click the button below.</p>
+            <button class="text-center text-white  font-weight-500 border-0 btn" style="margin-top: 4vh; background: #005FAD; padding: 10px 40px; border-radius: 30px;
+            ">Explore InMotionⓇ Solutions</button>
+          </div>
+          <div class="carousel-item">
+            <h2 style="padding: 0 200px; margin-top: 260px; color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, doloremque.</h2>
+            <p style="color: white;">To learn more about the InMotionⓇ Arm and InMotionⓇ Arm/Hand and how they can elevate your rehabilitation practice, click the button below.</p>
+            <button class="text-center text-white  font-weight-500 border-0 btn" style="margin-top: 4vh; background: #005FAD; padding: 10px 40px; border-radius: 30px;
+            ">Explore InMotionⓇ Solutions</button>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+    <h3 style="margin-top: 17vh; color: #707070; padding: 0 150px;">Embrace the future of rehabilitation with InMotionⓇ Robotics , and together, let's redefine what's possible in the world of physical therapy.</h3>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
