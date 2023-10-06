@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Univia Sans Family";
+    src: url('./univia/UniviaPro-Bold.otf');
+    src: url('./univia/UniviaPro-Bold.otf') format('embedded-opentype'),
+         url('./univia/UniviaPro-Bold.otf') format('woff2'),
+         url('./univia/UniviaPro-Bold.otf') format('woff'),
+         url('./univia/UniviaPro-Bold.otf') format('truetype');
+  }
